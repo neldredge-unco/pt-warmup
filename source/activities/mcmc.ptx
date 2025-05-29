@@ -11,11 +11,20 @@
         </p>
       </introduction>
       -->
+      <page>
       <exercise>
-        <page>
+
         <introduction>
           <p>
             Here is the amusement park chain from our earlier activity.
+            <diagram xmlns="https://prefigure.org">
+              <network directed="yes" labels="yes">
+                <node at="A">Acrophobia</node>
+                <node at="GG">Gravity Gripper</node>
+                <node at="PP">Perilous Plummet</node>
+                <node at="VV">Velocity Vexation</node>
+              </network>
+            </diagram>
           </p>
         </introduction>
 
@@ -50,8 +59,6 @@
           (Try to use algebra instead of trial and error.)  What about <m>10^{-4}</m>?  <m>10^{-5}</m>?                 </p>
             </statement>
         </task>
-      </page>
-      <page>
         <task workspace="1in">
             <statement>
                 <p>
@@ -68,6 +75,7 @@
                 </p>
             </statement>
         </task>
-      </page>
+
       </exercise>
+    </page>
     </worksheet>
