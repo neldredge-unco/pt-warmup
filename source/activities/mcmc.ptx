@@ -17,6 +17,7 @@
         <introduction>
           <p>
             Here is the amusement park chain from our earlier activity.
+          </p>
             <image>
               <shortdescription>A diagram of a Markov chain</shortdescription>
               <prefigure xmlns="https://prefigure.org" label="amusement-chain">
@@ -32,7 +33,6 @@
               </prefigure>
             </image>
               
-           </p>
         </introduction>
 
 
