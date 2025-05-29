@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="diagram" width="300" height="200">
+  <defs>
+    <clipPath id="clipPath-0">
+      <rect x="0.0" y="0.0" width="300.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="clipPath-1">
+      <rect x="0.0" y="0.0" width="300.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <g id="g-0"/>
+  <g id="g-1">
+    <circle id="node-A" cx="207.7" cy="20.0" r="12" stroke="black" stroke-width="1" fill="darkorange"/>
+    <g id="A" transform="translate(207.7,20.0) translate(-39.6,-6.8)">
+      <g id="g-2">
+        <text font-family="sans" font-size="14" x="0.0" y="10.6">Acrophobia</text>
+      </g>
+    </g>
+    <circle id="node-GG" cx="30.0" cy="92.8" r="12" stroke="black" stroke-width="1" fill="darkorange"/>
+    <g id="GG" transform="translate(30.0,92.8) translate(-54.1,-6.8)">
+      <g id="g-3">
+        <text font-family="sans" font-size="14" x="0.0" y="10.6">Gravity Gripper</text>
+      </g>
+    </g>
+    <circle id="node-PP" cx="148.5" cy="180.0" r="12" stroke="black" stroke-width="1" fill="darkorange"/>
+    <g id="PP" transform="translate(148.5,180.0) translate(-61.2,-5.4)">
+      <g id="g-4">
+        <text font-family="sans" font-size="14" x="0.0" y="10.6">Perilous Plummet</text>
+      </g>
+    </g>
+    <circle id="node-VV" cx="270.0" cy="109.0" r="12" stroke="black" stroke-width="1" fill="darkorange"/>
+    <g id="VV" transform="translate(270.0,109.0) translate(-61.2,-6.8)">
+      <g id="g-5">
+        <text font-family="sans" font-size="14" x="0.0" y="10.6">Velocity Vexation</text>
+      </g>
+    </g>
+  </g>
+</svg>
