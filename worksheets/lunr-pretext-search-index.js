@@ -181,6 +181,24 @@ var ptx_lunr_docs = [
   "body": "  A search committee is formed to find a new software engineer to hire.     If applicants apply for the job, how many hays are there to select a subset of applicants for a short list?      If of the are selected for an interview, how many ways are there to pick the set of applicants who are interviewed? (Assume that the short list is already decided.)      Based on the interview, the committee will rank the top applicants and submit the list to the boss who will make the final decision. (Assume that the interviewees are already decided.) How many ways are there to select the list from the applicants?    "
 },
 {
+  "id": "mcmc",
+  "level": "1",
+  "url": "mcmc.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Markov chain Monte Carlo",
+  "body": " Markov chain Monte Carlo     Here is the amusement park chain from our earlier activity.     Use the Metropolis Hastings algorithm to find acceptance probabilities that result in the modified chain having the uniform distribution as its stationary distribution (i.e. probability on every state).      Find the transition probabilities for the modified chain. Calculate the stationary distribution and\/or the long-time transition matrix to verify that your modification worked.      To get a sense how long the modified chain takes to mix , calculate the eigenvalues of the transition matrix. We know one of them will be , and in fact it will be the largest. Look at the second largest eigenvalue , in terms of its absolute value (or modulus, for eigenvalues that are complex). The distance between the rows of and the stationary distribution should be approximately . Using this, estimate how many steps would be needed to ensure that the -step transition probabilities are within (i.e. ) of the (uniform) stationary distribution. (Try to use algebra instead of trial and error.) What about ? ?      Compute the corresponding -step transition matrices to see how close your estimates were.      Suppose we instead wanted to end up with the stationary distribution because for some reason we really don't like Perilous Plummet. Repeat the previous steps to calculate acceptance probabilities to modify the chain, and estimate how long it takes to mix to within , , of the stationary distribution. Think about how this compares to the uniform version, and why.     "
+},
+{
+  "id": "mcmc-2",
+  "level": "2",
+  "url": "mcmc.html#mcmc-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Here is the amusement park chain from our earlier activity.     Use the Metropolis Hastings algorithm to find acceptance probabilities that result in the modified chain having the uniform distribution as its stationary distribution (i.e. probability on every state).      Find the transition probabilities for the modified chain. Calculate the stationary distribution and\/or the long-time transition matrix to verify that your modification worked.      To get a sense how long the modified chain takes to mix , calculate the eigenvalues of the transition matrix. We know one of them will be , and in fact it will be the largest. Look at the second largest eigenvalue , in terms of its absolute value (or modulus, for eigenvalues that are complex). The distance between the rows of and the stationary distribution should be approximately . Using this, estimate how many steps would be needed to ensure that the -step transition probabilities are within (i.e. ) of the (uniform) stationary distribution. (Try to use algebra instead of trial and error.) What about ? ?      Compute the corresponding -step transition matrices to see how close your estimates were.      Suppose we instead wanted to end up with the stationary distribution because for some reason we really don't like Perilous Plummet. Repeat the previous steps to calculate acceptance probabilities to modify the chain, and estimate how long it takes to mix to within , , of the stationary distribution. Think about how this compares to the uniform version, and why.    "
+},
+{
   "id": "activity-magic-beans",
   "level": "1",
   "url": "activity-magic-beans.html",
