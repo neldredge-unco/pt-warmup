@@ -17,7 +17,7 @@
         <introduction>
           <p>
             Here is the amusement park chain from our earlier activity.
-            <diagram xmlns="https://prefigure.org">
+            <diagram dimensions="(300,200)" xmlns="https://prefigure.org">
               <network directed="yes" labels="yes">
                 <node at="A">Acrophobia</node>
                 <node at="GG">Gravity Gripper</node>
