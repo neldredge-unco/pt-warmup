@@ -21,14 +21,22 @@
             <image>
               <shortdescription>A diagram of a Markov chain</shortdescription>
               <prefigure xmlns="https://prefigure.org" label="amusement-chain">
-              <diagram dimensions="(300,200)" xmlns="https://prefigure.org">
-              <network directed="yes" labels="yes">
-                <node at="A">Acrophobia</node>
-                <node at="GG">Gravity Gripper</node>
-                <node at="PP">Perilous Plummet</node>
-                <node at="VV">Velocity Vexation</node>
+<diagram dimensions="(600,600)">
+              <network directed="yes" labels="yes" node-size="60" scale="0.6">
+                <node at="0">Acrophobia</node>
+                <node at="1">Gravity Gripper</node>
+                <node at="2">Perilous Plummet</node>
+                <node at="3">Velocity Vexation</node>
+                <edge vertices="(0,1)">0.6</edge>
+                <edge vertices="(1,1)" loop-scale="(0.5,.3)">0.1</edge>
+                <edge vertices="(1,0)">0.9</edge>
+                <edge vertices="(0,2)">0.4</edge>
+                <edge vertices="(2,0)">0.8</edge>
+                <edge vertices="(2,3)">0.2</edge>
+                <edge vertices="(3,2)">0.5</edge>
+                <edge vertices="(3,0)">0.5</edge>
               </network>
-            </diagram>
+</diagram>
 
               </prefigure>
             </image>
